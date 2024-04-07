@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.lead {
+    font-size: 92px !important;
+    margin-top: 45px;
+}
+
+.btn-ligh-yellow {
+    background-color: #F5CE65 !important;
+    color: white !important;
+}
+
+.btn-ligh-yellow:hover {
+    background-color: #dfa60b !important;
+    color: white !important;
+}
+
+.showcase {
+    background: url('/images/background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.ideas{
+    background-color:#024454;
+}
+
+.ideas img{
+    border: 10px solid #F5CE65 !important;
+    border-image: 1px !important;
+}
+
+.footer {
+    background-color:#024454;
+
+}
